@@ -6,6 +6,42 @@
     <title>Muuramen Autotalo</title>
     <link rel="stylesheet" href="assets/css/main.css">
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <style>
+        .info-section {
+            background: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .info-section h2 {
+            color: #333;
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+        .info-section ul {
+            list-style: none;
+            padding: 0;
+        }
+        .info-section ul li {
+            font-size: 18px;
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        .info-section ul li:last-child {
+            border-bottom: none;
+        }
+        .contact-info p {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .contact-info a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body class="homepage is-preload">
     <div id="page-wrapper">
@@ -15,7 +51,7 @@
                 <header>
                     <h1><a href="index.html" id="logo">Muuramen Autotalo</a></h1>
                     <hr />
-                    <p>Laadukkaita autoihin liittyviä palveluja ja monipuolinen valikoima autoja</p>
+                    <p>Yrityspuisto, jossa toimii polttoainejakelu, lounaskahvila, autokorjaamo ja autoliikkeet.</p>
                 </header>
                 <footer>
                     <a href="#banner" class="button circled scrolly">Aloita</a>
@@ -24,6 +60,9 @@
             <nav id="nav">
                 <ul>
                     <li><a href="#services">Palvelut</a></li>
+                    <li><a href="#companies">Yritykset</a></li>
+                    <li><a href="#facilities">Kokous- ja koulutustilat</a></li>
+                    <li><a href="#events">Tapahtumat</a></li>
                     <li><a href="#contact">Yhteystiedot</a></li>
                     <li><a href="#location">Sijainti</a></li>
                 </ul>
@@ -33,40 +72,30 @@
         <section id="banner">
             <header>
                 <h2>Tervetuloa Muuramen Autotaloon</h2>
-                <p>Laadukkaita autoihin liittyviä palveluja ja monipuolinen valikoima autoja</p>
+                <p>Yrityspuisto, jossa toimii polttoainejakelu, lounaskahvila, autokorjaamo ja autoliikkeet.</p>
             </header>
         </section>
-        <!-- Main Content -->
-        <section id="main" class="wrapper style2">
-            <div class="inner">
-                <section id="services">
-                    <h2>Palvelumme</h2>
-                    <ul>
-                        <li>Autokauppa - Uudet ja käytetyt autot</li>
-                        <li>Huolto- ja korjauspalvelut</li>
-                        <li>Renkaat ja varaosat</li>
-                        <li>Rahoitus- ja vakuutusratkaisut</li>
-                    </ul>
-                </section>
-                <section id="contact">
-                    <h2>Yhteystiedot</h2>
-                    <p><strong>Osoite:</strong> Muurame, Suomi</p>
-                    <p><strong>Puhelin:</strong> +358 40 123 4567</p>
-                    <p><strong>Sähköposti:</strong> info@muuramenautotalo.fi</p>
-                    <p><a href="http://www.muuramenautotalo.fi/" target="_blank">Vieraile virallisella sivustollamme</a></p>
-                </section>
-                <section id="location">
-                    <h2>Sijainti</h2>
-                    <iframe
-                        width="100%"
-                        height="300"
-                        frameborder="0"
-                        style="border:0"
-                        src="https://www.google.com/maps/embed/v1/place?key=YOUR_GOOGLE_MAPS_API_KEY&q=Muurame,Finland"
-                        allowfullscreen>
-                    ></iframe>
-                </section>
-            </div>
+        <!-- Esittely -->
+        <section id="about" class="info-section">
+            <h2>Esittely</h2>
+            <p>Muuramen Autotalo on yrityspuisto, jossa toimivat henkilö- ja kuorma-autojen polttoainejakelu, lounaskahvila, autokorjaamo ja autoliikkeet. Kiinteistöön kuuluu myös paikoitusalue 250-300 henkilöautolle.</p>
+            <p>Muuramen Autotalon omistaa <em>Kiinteistö Oy Autotalon Yrityspuisto</em>, joka kuuluu Lindberg-Yhtiöihin ja jolla on sama omistuspohja kuin metallityöstökoneita maahantuovalla ja myyvällä sisaryritys <a href="http://www.il-machinery.com/fi/etusivu" target="_blank">Insinööritoimisto Ismo Lindberg Oy:llä</a>.</p>
+            <img src="http://www.muuramenautotalo.fi/wp-content/uploads/2014/02/ilmakuvasmall.jpg" alt="Ilmakuva Muuramen Autotalosta" width="230" height="112">
+        </section>
+        <!-- Yritykset -->
+        <section id="companies" class="info-section">
+            <h2>Yritykset</h2>
+            <p>Kaikki yritykset löytyvät ylävalikon kautta.</p>
+        </section>
+        <!-- Kokous- ja koulutustilat -->
+        <section id="facilities" class="info-section">
+            <h2>Kokous- ja koulutustilat</h2>
+            <p>Tarkempia tietoja kokous- ja koulutustiloista.</p>
+        </section>
+        <!-- Tapahtumat -->
+        <section id="events" class="info-section">
+            <h2>Tapahtumat</h2>
+            <p>Tiedot tulevista ja menneistä tapahtumista.</p>
         </section>
         <!-- Footer -->
         <footer id="footer">
